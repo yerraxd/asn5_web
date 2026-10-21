@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.task {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#task5, #task6, #task7 {
+    width: 30%;
+    padding: 30px;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+#box {
+    width: 150px;
+    height: 150px;
+    background: lightblue;
+    text-align: center;
+    line-height: 150px;
+}
+
+input {
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 6px 14px;
+    cursor: pointer;
+}
